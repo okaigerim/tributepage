@@ -1,0 +1,92 @@
+*{  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+a{
+    color: rgb(24, 24, 24);
+}
+
+.main .heading {
+    text-align: center;
+}
+
+.main .timeline{
+    margin-top: 40px;
+    padding: 15px;
+    
+    border: 3px black solid;
+    border-radius: 5px;
+    text-align: left;
+    padding: 4px 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.main blockquote{
+    text-align: right;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 3px;
+}
+
+
+
+.buttonref{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.buttonref button{
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 180px;
+    height:50px;
+    line-height: 50px;
+    margin:30px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    background: transparent;
+    overflow: hidden;
+    transition: .4s;
+    
+}
+
+.buttonref a{
+    
+}
+
+.buttonref button:nth-child(1){
+    color: lightgray;
+    border: 1px solid;
+    background-color: #222121;
+    
+}
+
+.buttonref button:nth-child(1):hover{
+    background: lightgray;
+    color: #222121;
+}
+
+.buttonref button span{
+    display: flex;
+    width: 100px;
+    height: 10px;
+    background: #e5e5e5;
+    filter: blur(8px);
+    transform: rotate(110deg) translateX(10px) translateY(100px);
+    transition: .4s;
+}
+
+.buttonref button:hover span{
+    transform: rotate(110deg) translateX(-80px) translateY(-140px);
+}
+
+
